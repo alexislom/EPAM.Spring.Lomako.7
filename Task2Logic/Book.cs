@@ -23,8 +23,6 @@ namespace Task2Logic
 
         public Book(string name, string author, int year, int pages)
         {
-            //if (string.IsNullOrEmpty(name))
-            //    throw new ArgumentException()
             this.Name = name;
             this.Author = author;
             this.Year = year;
